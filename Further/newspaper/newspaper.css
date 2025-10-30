@@ -1,0 +1,96 @@
+body {
+    background-color: #BAFDAF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #225522;
+    
+}
+
+span {
+    text-align: left;
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 20px; 
+}
+
+.imgDiv {
+    width: 25%;
+}
+
+.textSpan {
+    float: left;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.cont {
+    display: inline-flex;
+    padding: 10px;
+    max-width: 95%;
+}
+
+#mirco {
+    width: 100%
+}
+
+#wiko {
+    width: 100%;
+}
+
+button {
+    margin-left: 1%;
+    background-color: #BAFDAF;
+    border: none;
+    color: #BAFDAF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+
+input {
+    border: none;
+    background-color: #9999EE;
+    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#vibeyButtonInsert {
+    background-color: #9999EE;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    color: #DDDDFF;
+}

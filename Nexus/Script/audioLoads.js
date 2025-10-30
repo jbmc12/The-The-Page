@@ -1,0 +1,10 @@
+// * Place audios here.
+var banj = new Audio('Audio/Banj.wav');
+var btn = new Audio('Audio/Btn.mp3');
+var corrupt = new Audio('Audio/Corrupt.wav');
+var err = new Audio('Audio/Err.wav');
+var erro = new Audio('Audio/Erro.wav');
+var ind = new Audio('Audio/Ind.wav');
+var no = new Audio('Audio/No.wav');
+var reject = new Audio('Audio/Reject.wav');
+var here = new Audio('Audio/here.wav');

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="forms.css">
+        <link rel="icon" type="image/png" href="43329.png">
+        <title>A Form.</title>
+        <meta charset="UTF-8">
+        <script>
+            var audio = new Audio('');
+            audio.play();
+            audio.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+        </script>
+    </head>
+    <body>
+        <h1>Registration Form.</h1>
+        <hr onclick="sun()" id="hint">
+        <div class="position">
+            <div class="container">
+                <form>
+                    <div class="item">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="item">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div class="item">
+                        <label for="bdate">Date of Birth:</label>
+                        <input type="date" id="bdate" name="bdate">
+                    </div>
+                    <div class="item">
+                        <label for="favcolor">Select your favorite color:</label>
+                        <input type="color" id="favcolor" name="favcolor" value="#000000">
+                    </div>
+                    <div class="item">
+                        <input type="submit" value="Submit" id="submit" disabled="true">
+                    </div>
+                </form>
+            </div>
+        </div>
+    <script src="forms.js"></script>
+    </body>
+</html>

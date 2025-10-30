@@ -1,0 +1,161 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    transition: 20s;
+}
+
+table, td, th {
+    padding: 17px 15px; 
+}
+
+#loltab , #reptab {
+    transition: 20s;
+}
+
+nav {
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    top: 0;
+    background: gray;
+    border-bottom: solid 5px;
+}
+
+span {
+    margin-left: 10px;    
+}
+
+button {
+    border: none;
+    margin-right: 125px;
+    font-size: 1.0em;
+    background: lightgray;
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    transition: 1s;
+    padding: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: whitesmoke;
+}
+
+#lol {
+    background-color: rgb(255,0,0);
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+  
+table {
+    width: 99%;
+    border-collapse: collapse;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input {
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+.hell {
+    transition: 5s;
+    cursor: pointer;
+}
+
+.hell:hover {
+    transition: 10s;
+    color: red;
+    font-size: 1em;
+}
+
+a:link { 
+  text-decoration: none; 
+  color: lightskyblue;
+} 
+
+a:visited { 
+  text-decoration: none; 
+  color: lightskyblue;
+} 
+
+a:hover { 
+  text-decoration: none; 
+} 
+
+a:active { 
+  text-decoration: none; 
+}
+
+#Bold {
+    font-weight: bolder;
+}
+
+#Italians {
+    font-style: italic;
+}
+
+#repL:hover {
+    transition: 2s;
+    color: blue;
+    cursor: pointer;
+}
+
+#under {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#dropper {
+    transition: 0.5s;
+    user-select: none;
+}
+
+#dropper:hover {
+    transition: 1.5s;
+    color: skyblue;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+}
+
+#backOut {
+    margin-left: 25px;
+    border: solid 1px gray;
+}
+
+.hell {
+    user-select: none;
+}
+
+#under {
+    user-select: none;
+}
+
+#veryTex {
+    user-select: none;
+}
+
+#colorTex {
+    user-select: none;
+}

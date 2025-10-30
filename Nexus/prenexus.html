@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link id="Styles" rel="stylesheet" href="Styles/preemp.css" disabled>
+        <link rel="icon" type="image/webp" href="Img/random.webp">
+        <title>----------------------------</title>
+        <meta charset="UTF-8">
+        <script>
+            var readyUp = false;
+            const audio = new Audio('Audio/Heater.wav');
+            audio.play();
+            audio.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+            setTimeout(() => {
+                document.body.style.backgroundColor = "black";
+                readyUp = true;
+            }, 1000);
+        </script>
+    </head>
+    <body>
+        <div id="root" style="opacity: 0%;">
+            <input id="rrt"></input>
+            <div id="crash">
+            </div>
+        </div>
+        <p id="en"></p>
+    <div hidden id="scripts">
+        <script src="Script/___.js"></script>
+        <script src="Script/audioLoads.js"></script>
+        <script src="Script/input'ed.js"></script>
+        <script src="Script/imhere.js"></script>
+    </div>
+    </body>
+</html>

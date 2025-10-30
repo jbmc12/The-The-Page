@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="sung.css">
+        <title>Sun</title>
+        <meta charset="UTF-8">
+        <script>
+            var audio = new Audio('Ilyoilohu.mp3');
+            audio.play();
+            audio.volume = 0.5;
+            audio.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+        </script>
+    </head>
+    <body>
+        <a href="https://twitter.com/mocha708">Artist.</a>
+        <span id="hint">Select All</span>
+        <span id="inputafter">sunthenexus is the input code after icallth######</span>
+    </body>
+</html>

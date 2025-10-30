@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url('IMG_20190319_190729.jpg');
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    font-size: 46px;
+    background: #1C75C933;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: solid 1px #5C95D933;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all .35s;
+    user-select: none;
+}
+
+a:hover {
+    background: #1C75C966;
+    box-shadow: 0 0 2px #5C95D9,
+        0 0 10px #1C75C9,
+        0 0 50px #1C75C9CC,
+        0 0 100px #1C75C9BB,
+        0 0 200px #1C75C9AA,
+        0 0 400px #1C75C999,
+        0 0 800px #1C75C988,
+        0 0 1600px #1C75C977;
+    border: solid 1px #5C95D9AA;
+}
+
+#hint {
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    font-size: 20px;
+    color: white;
+}
+
+#inputafter {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 20px;
+    color: transparent;
+    cursor: wait;
+}
